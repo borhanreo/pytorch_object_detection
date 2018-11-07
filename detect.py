@@ -27,8 +27,6 @@ class test_net(nn.Module):
         x = x.view(-1)
         fwd = nn.Sequential(self.linear_1, *self.middle, self.output)
         return fwd(x)
-
-
 def get_test_input(input_dim, CUDA):
     img = cv2.imread("dog-cycle-car.png")
     img = cv2.resize(img, (input_dim, input_dim))
