@@ -6,3 +6,8 @@
 #### image folder test
 
     python detect.py --images imgs --det det 
+    
+#### cam run
+        
+    python cam_demo.py
+        
