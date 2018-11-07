@@ -15,8 +15,6 @@ import pandas as pd
 import random
 import pickle as pkl
 import itertools
-
-
 class test_net(nn.Module):
     def __init__(self, num_layers, input_size):
         super(test_net, self).__init__()
